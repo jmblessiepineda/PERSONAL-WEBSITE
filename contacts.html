@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<a href="index.html"> <div id="logo"> Contact </div> </a>
+			<nav>
+				<ul>
+					<li> <a href="index.html"> Home </a> </li>
+					<li> <a href="family.html"> Family </a> </li>
+					<li> <a href="friends.html"> Friends </a> </li>
+					<li  class="active"> <a href="contacts.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container" id="page">
+		
+		<div>
+			<h1>LET'S TALK</h1>
+		</div>
+		<div  id = "contacts">
+			<h4>Jm Blessie Pineda<br>Phase 1 Block 2 Lot 30<br>Highview Hills , Sampaloc , Apalit , Pampanga<br>jmblessiepineda@yahoo.com<br>Tel (045) 409 4840<br>Mobile +639351023753</h4>
+		</div>	
+		<br>
+		<div align = "center">
+			<input type = "text" name = "name" placeholder="Name" id = 'input_name'class = "mytext">
+		</div>
+		<div align = "center">
+			<input type = "text" name = "email" placeholder="Email" id = 'input_email'class = "mytext">
+		</div>
+		<div align = "center">
+			<input type = "text" name = "subject" placeholder="Subject" id = 'input_subject'class = "mytext">
+		</div>
+		<div align = "center">
+			<Textarea name ='message' id ='input_message' placeholder='Message'rows= "10"cols="39" class = "mytexts"></Textarea>
+		</div>
+		<div align = "center" style="text-indent: 49px;">
+			<button onClick = "postBlog()">SEND</button>
+		</div>
+		<br><br><br>
+	</div>
+
+	<div id="output">
+		<p>
+			<h4><span id="subject"></span></h4>
+			<span id="name"></span>
+			<h5><span id="message"></span><h5>
+		</p>
+	</div>
+		
+	<footer>
+		<div class="container">
+			All Rights Reserved<br>2015
+		</div>
+	</footer>
+	<script type="text/javascript" src="webscript.js"></script>
+</body>
+</html>
